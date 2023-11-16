@@ -74,8 +74,12 @@ WSGI_APPLICATION = 'mac.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'Faa5aeaaA*1-*42-5-gf5-GA6GE*Ec2-',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '34624',
     }
 }
 
@@ -123,4 +127,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build','static'),
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
