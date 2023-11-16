@@ -19,7 +19,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "poll/wsgi.py"
+            "dest": "mac/wsgi.py"
         }
     ]
 }
