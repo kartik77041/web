@@ -1,0 +1,3 @@
+this is kartik
+![](../../../../../../../Desktop/mens-hairsryles-color.jpg)
+    <img scr="../../../../../../../Desktop/mens-hairsryles-color.jpg" alt="hello the world">
