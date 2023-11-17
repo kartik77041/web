@@ -22,7 +22,7 @@ SECRET_KEY = '9h_#wy*6)%#ug3-uv@7xlryan5a36rqe^j5a$-i0@fo9szu=%n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['vercel.app']
 
 
 # Application definition
@@ -77,9 +77,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'Faa5aeaaA*1-*42-5-gf5-GA6GE*Ec2-',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '34624',
+        'PASSWORD': '62eA14DaEEF2f1g-1f1DDFEcABe6*gf5',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '24132',
     }
 }
 
